@@ -8,6 +8,6 @@
             "email": "swiety@byss.pl"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {}
 }

@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\log;
+namespace swi3ty\log;
 
 use Yii;
 use yii\db\Connection;

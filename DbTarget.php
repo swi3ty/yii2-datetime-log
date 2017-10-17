@@ -12,6 +12,7 @@ use yii\db\Connection;
 use yii\base\InvalidConfigException;
 use yii\di\Instance;
 use yii\helpers\VarDumper;
+use yii\log\Target;
 
 /**
  * DbTarget stores log messages in a database table.
@@ -29,7 +30,7 @@ use yii\helpers\VarDumper;
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
  */
-class DbTarget extends yii\log\Target
+class DbTarget extends Target
 {
     /**
      * @var Connection|array|string the DB connection object or the application component ID of the DB connection.

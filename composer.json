@@ -1,0 +1,13 @@
+{
+    "name": "swi3ty/yii2-datetime-log",
+    "description": "datetime instead of timestamp in logs",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Paweł Święcicki",
+            "email": "swiety@byss.pl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
